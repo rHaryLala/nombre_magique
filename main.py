@@ -37,4 +37,4 @@ while not nb == NOMBRE_MAGIQUE and vies > 0:
         print("\n Bravo, vous ave gagné")
 
 if vies == 0:
-    print("\n Vous avez perdu")
+    print(f"\nVous avez perdu ! Le nombre magique était {NOMBRE_MAGIQUE}")
